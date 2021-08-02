@@ -1,0 +1,141 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+===============================
+Menu css
+===============================
+*/
+.main_menu ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #111;
+    font-weight: 500;
+}
+
+/* 
+===============================
+Dropdown menu css
+===============================
+*/
+
+.Our_primary_menu li {
+    position: relative;
+}
+
+.Our_primary_menu li ul {
+    position: absolute;
+    width: 200px;
+    left: 0;
+    top: 150%;
+    background: #fafafa;
+    list-style: none;
+    padding: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.Our_primary_menu li ul li {
+    flex-direction: column;
+
+}
+
+.Our_primary_menu li ul li a {
+    text-decoration: none;
+    color: #111;
+}
+
+.Our_primary_menu li ul li a:hover {
+    color: #754FFE;
+}
+
+.Our_primary_menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+
+}
+
+.Our_primary_menu li a:hover {
+    color: #754FFE !important;
+}
+
+/* 
+===============================
+search box css
+===============================
+*/
+.search_box {
+    margin-right: 193px;
+    width: 100%;
+}
+
+/* 
+===============================
+Slider area css
+===============================
+*/
+
+.slider_area {
+    background: no-repeat;
+}
+
+.slider_caption {
+    padding-top: 100px;
+}
+
+.slider_caption h1 {
+    color: #fff;
+}
+
+.slider_caption p {
+    color: hsla(0, 0%, 100%, .5) !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* 
+=============================
+about area
+=============================
+*/
+.icon_div {
+    float: left;
+    font-size: 20px;
+    border: 2px solid #111;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 23px;
+}
+
+.icon_div i {
+    padding: 10px;
+}
+
+.text_div p {
+    margin-bottom: 35px;
+}
+
+.text_div {
+    width: 357px;
+    margin: auto;
+}
+
+.text_div h6 {
+    margin: 0;
+}
